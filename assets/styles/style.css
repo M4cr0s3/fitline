@@ -732,3 +732,33 @@ input[type=checkbox]:checked + .fake-check::before {
         width: 100%;
     }
 }
+
+.none {
+    display: none;
+}
+
+.block-1 {
+    flex-wrap: wrap;
+    opacity: 1;
+    animation: fadeIn .5s ease-in-out;
+}
+
+.block-2 {
+    opacity: 1;
+    animation: fadeIn .5s ease-in-out;
+}
+
+.block-3 {
+    opacity: 1;
+    animation: fadeIn .5s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
